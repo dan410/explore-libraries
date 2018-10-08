@@ -1,10 +1,17 @@
-my-packages
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+packages-report
 ===============
 
-* Have a look around the files here. Where are the R scripts? What are the directories `data` and `figs` for? Do the names and structure help you find things?
-* Open each R script, finish it, and run it. Remember to restart R as you go, so you are certain each file is complete, i.e. data flows through explicit write/read, not the global workspace.
-  - `R/01_write-installed-packages.R`
-  - `R/02_wrangle-packages.R`
-  - `R/03_barchart-packages-built.R`
-* It's OK if you don't finish! We can keep working on this later.
-* If you finish quickly, write an R script to run the whole analysis and, perhaps, another script that does a `make clean` style reset.
+The goal of packages-report is to show the state of the R packages installed on the machine.
+
+I have 224 add-on packages installed.
+
+Here's how they break down in terms of which version of R they were built under, which is related to how recently they were updated on CRAN.
+
+| Built |    n|       prop|
+|:------|----:|----------:|
+| 3.5.0 |  222|  0.9910714|
+| 3.5.1 |    2|  0.0089286|
+
+![](figs/built-barchart.png)
