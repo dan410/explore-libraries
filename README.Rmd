@@ -14,6 +14,8 @@ library(tidyverse)
 
 # packages-report
 
+date: `r format(Sys.time(), '%d %B, %Y')`
+
 The goal of packages-report is to show the state of the R packages installed on the machine.
 
 ```{r, include = FALSE}

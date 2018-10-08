@@ -3,6 +3,8 @@
 packages-report
 ===============
 
+date: 08 October, 2018
+
 The goal of packages-report is to show the state of the R packages installed on the machine.
 
 I have 224 add-on packages installed.
