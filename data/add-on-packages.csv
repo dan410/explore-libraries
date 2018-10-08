@@ -1,4 +1,7 @@
 Package,Built
+purrr,3.5.0
+repurrrsive,3.5.0
+tidyverse,3.5.0
 abind,3.5.0
 acepack,3.5.0
 antiword,3.5.0
@@ -29,6 +32,7 @@ clisymbols,3.5.0
 coda,3.5.0
 colorspace,3.5.0
 commonmark,3.5.0
+cowsay,3.5.0
 crayon,3.5.0
 crosstalk,3.5.0
 curl,3.5.0
@@ -41,7 +45,7 @@ devtools,3.5.0
 dichromat,3.5.0
 digest,3.5.0
 dotCall64,3.5.0
-dplyr,3.5.0
+dplyr,3.5.1
 DT,3.5.0
 dtplyr,3.5.0
 e1071,3.5.0
@@ -49,6 +53,7 @@ enc,3.5.0
 evaluate,3.5.0
 extrafont,3.5.0
 extrafontdb,3.5.0
+fansi,3.5.0
 fastmatch,3.5.0
 fields,3.5.0
 filehash,3.5.0
@@ -57,6 +62,7 @@ filematrix,3.5.0
 FNN,3.5.0
 forcats,3.5.0
 Formula,3.5.0
+fortunes,3.5.0
 FRK,3.5.0
 fs,3.5.0
 geoR,3.5.0
@@ -130,6 +136,7 @@ prettyunits,3.5.0
 processx,3.5.0
 promises,3.5.0
 pryr,3.5.0
+ps,3.5.0
 psych,3.5.0
 purrr,3.5.0
 quanteda,3.5.0
@@ -158,6 +165,7 @@ rio,3.5.0
 rjson,3.5.0
 rlang,3.5.0
 rmarkdown,3.5.0
+rmsfact,3.5.0
 robustbase,3.5.0
 roxygen2,3.5.0
 rprojroot,3.5.0
