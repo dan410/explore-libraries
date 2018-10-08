@@ -14,7 +14,7 @@ ipt <- readr::read_csv(here('data', 'installed-packages.csv'))
 ## if you use dplyr, code like this will work:
 apt <- ipt %>%
   filter(is.na(Priority)) %>%
-  select(Package, Built)
+  select(Package, Built, Version)
 
 ## write this new, smaller data frame to data/add-on-packages.csv
 ## hint: readr::write_csv() or write.table()

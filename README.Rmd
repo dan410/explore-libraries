@@ -31,4 +31,14 @@ knitr::kable(pk)
 
 ![](figs/built-barchart.png)
 
+## Show list of packages
+```{r, include = FALSE}
+apk <- readr::read_csv(here::here("data", "add-on-packages.csv"))
+```
+
+```{r, echo = FALSE}
+knitr::kable(apk)
+```
+
+
 
